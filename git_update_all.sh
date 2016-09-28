@@ -1,7 +1,4 @@
 #/bin/bash
-RED='0;31'
-GREEN='0;32'
-NC='1;37' # No Color
 
 for d in */ ; do
     cd "$d"
