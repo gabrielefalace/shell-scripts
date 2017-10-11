@@ -18,3 +18,6 @@ grep -rn --include=*.java . -e "IN_BLACKLIST"
 
 # finding all files in current folder (.) with name matching a pattern
 find . -name "*.java"
+
+# find and delete
+find . -name '*.orig' -o -name '*.png' -delete
